@@ -48,7 +48,7 @@ def load_model(arch: str, weights_path: str):
     return model
 
 RESNET50_MODEL = load_model("resnet50", "models/best_resnet_mri.pth")
-VGG16_MODEL = load_model("vgg16", "models/best_vgg_mri (2).pth")
+VGG16_MODEL = load_model("vgg16", "models/best_vgg_mri.pth")
 
 ##TODO: Single Model Predictions
 def generate_softmax_outputs(model, input_tensor):
